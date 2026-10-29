@@ -1,0 +1,13 @@
+# Raspberry Pi 5 / Local Inference Requirements
+# Note: On Raspberry Pi OS (Bookworm), prefer installing system packages:
+#   sudo apt update && sudo apt install -y python3-picamera2 python3-opencv python3-numpy
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# Optional: Only needed if running train.py locally instead of Google Colab
+# torch>=2.0.0
+# kagglehub>=0.2.0
+# scikit-learn>=1.3.0
+# tqdm>=4.65.0
+# onnx>=1.14.0
+
